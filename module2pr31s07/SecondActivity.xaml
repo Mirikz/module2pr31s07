@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="module2pr31s07.SecondActivity">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#32B898">
+            <ContentView>
+                <Image  Source="avatar.png" Margin="24,30,24,298"></Image>
+            </ContentView>
+       
+        <Entry  BackgroundColor="White" 
+                FontSize="18" HorizontalTextAlignment="Center" 
+                Text="Имя пользователя"  />
+        <Entry  BackgroundColor="White"  
+                FontSize="18" HorizontalTextAlignment="Center" 
+                Text="Пароль"  />
+        <Button Text="Вход" TextColor="White"
+                BackgroundColor="#4A799A" Font="Roboto" FontSize="18"
+                 />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
